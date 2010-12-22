@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DDSQL32 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ROBERT~1\LOCALS~1\Temp\RSP231.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32" /I "c:\orant\oci80\include" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "_MT" /Fp"Release/DDSQL32.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32\column.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32\connect.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32\cursor.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32\strng.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32\table.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\DDSQL32\text2col.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ROBERT~1\LOCALS~1\Temp\RSP231.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\DDSQL32.lib"  ".\Release\column.obj" ".\Release\connect.obj" ".\Release\cursor.obj" ".\Release\strng.obj" ".\Release\table.obj" ".\Release\text2col.obj" "
+<h3>Output Window</h3>
+Compiling...
+column.cpp
+connect.cpp
+cursor.cpp
+strng.cpp
+table.cpp
+text2col.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+DDSQL32.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
